@@ -1,4 +1,5 @@
-﻿module Utilities
+﻿
+module Utilities
 
 open System
 
