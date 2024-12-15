@@ -2,7 +2,7 @@
 
 open System
 
-let isAnswerCorrect (userAnswer: string) (correctAnswer: string) =
+let isAnswerCorrect (userAnswer: string) (correctAnswer: string) : bool =
     let normalize (str: string) =
         str.ToLowerInvariant().Split([|' '; ','; '.'; '!'|], StringSplitOptions.RemoveEmptyEntries)
         |> List.ofArray
